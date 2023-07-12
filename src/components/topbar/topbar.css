@@ -1,8 +1,39 @@
 .topbar {
   width: 100%;
   height: 70px;
-  background-color: #15023a;
+  background-color: white;
+  color: #15023a;
   position: fixed;
   top: 0;
   z-index: 2;
+}
+.topbar .wrapper {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topbar .wrapper .left {
+  display: flex;
+  align-items: center;
+}
+.topbar .wrapper .left .logo {
+  font-size: 40px;
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+  margin-right: 40px;
+}
+.topbar .wrapper .left .itemContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.topbar .wrapper .left .itemContainer .icon {
+  font-size: 18px;
+  margin-right: 5px;
+}
+.topbar .wrapper .left .itemContainer span {
+  font-size: 15px;
+  font-weight: 500;
 }/*# sourceMappingURL=topbar.css.map */

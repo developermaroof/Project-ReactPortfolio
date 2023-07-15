@@ -13,17 +13,6 @@
   list-style: none;
   display: flex;
 }
-.portfolio ul li {
-  font-size: 14px;
-  margin-right: 50px;
-  padding: 7px;
-  border-radius: 10px;
-  cursor: pointer;
-}
-.portfolio ul li.active {
-  background-color: #15023a;
-  color: white;
-}
 .portfolio .container {
   width: 70%;
   display: flex;

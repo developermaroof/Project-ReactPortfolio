@@ -17,7 +17,7 @@
   float: right;
 }
 .intro .left .imgContainer img {
-  height: 90%;
+  width: 90%;
 }
 .intro .right {
   flex: 0.5;
@@ -36,7 +36,7 @@
   margin: 10px 0;
 }
 .intro .right .wrapper h2 {
-  font-size: 35px;
+  font-style: 35px;
 }
 .intro .right .wrapper h3 {
   font-size: 30px;
@@ -44,17 +44,6 @@
 .intro .right .wrapper h3 span {
   font-size: inherit;
   color: crimson;
-}
-.intro .right .wrapper h3 .ityped-cursor {
-  animation: blink 1s infinite;
-}
-@keyframes blink {
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
 }
 .intro .right a {
   position: absolute;

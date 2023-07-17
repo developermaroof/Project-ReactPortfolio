@@ -5,6 +5,11 @@
   border-radius: 10px;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .portfolioList {
+    margin-right: 20px;
+  }
+}
 .portfolioList.active {
   background-color: #15023a;
   color: white;

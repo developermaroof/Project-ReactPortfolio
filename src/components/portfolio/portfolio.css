@@ -1,5 +1,5 @@
 .portfolio {
-  background-color: whitesmoke;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,11 +7,23 @@
 .portfolio h1 {
   font-size: 50px;
 }
+@media (max-width: 768px) {
+  .portfolio h1 {
+    font-size: 20px;
+  }
+}
 .portfolio ul {
   margin: 10px;
   padding: 0;
   list-style: none;
   display: flex;
+}
+@media (max-width: 768px) {
+  .portfolio ul {
+    margin: 10px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 .portfolio .container {
   width: 70%;
@@ -19,6 +31,11 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .portfolio .container {
+    width: 100%;
+  }
 }
 .portfolio .container .item {
   width: 220px;
@@ -33,6 +50,12 @@
   position: relative;
   transition: all 0.5s ease;
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  .portfolio .container .item {
+    width: 130px;
+    height: 100px;
+  }
 }
 .portfolio .container .item h3 {
   position: absolute;

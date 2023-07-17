@@ -1,6 +1,11 @@
 .contact {
-  background-color: whitesmoke;
+  background-color: white;
   display: flex;
+}
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+  }
 }
 .contact .left {
   flex: 1;
@@ -32,10 +37,22 @@
   height: 30px;
   font-size: 14px;
 }
+@media (max-width: 768px) {
+  .contact .right form input {
+    width: 200px;
+    height: 20px;
+  }
+}
 .contact .right form textarea {
   width: 300px;
   height: 200px;
   font-size: 14px;
+}
+@media (max-width: 768px) {
+  .contact .right form textarea {
+    width: 200px;
+    height: 100px;
+  }
 }
 .contact .right form button {
   width: 150px;
